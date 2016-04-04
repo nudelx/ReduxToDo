@@ -9,7 +9,6 @@ export default class TodoInput extends Component{
 
     // initial state of the component
     super(props);
-
     this.addNewTodo = this.addNewTodo.bind(this);
     // this.onFormSubmit = this.onFormSubmit.bind(this);
   }
@@ -44,8 +43,6 @@ export default class TodoInput extends Component{
   }
 
 }
-
-
 
 function mapDispatchToProps(dispatch){
   return bindActionCreators({addTodoAction}, dispatch);
